@@ -1,5 +1,7 @@
 package aplicacion;
 
+import mates.Matematicas;
+
 public class Principal {
 
     public static void main(String[] args) {
@@ -11,5 +13,5 @@ public class Principal {
         long numIntentos = Long.parseLong(args[0]);
 
         System.out.println("Aproximación de pi: " + Matematicas.aproximarPiLambda(numIntentos));
-    }
+    }
 }

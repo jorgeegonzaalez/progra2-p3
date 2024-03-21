@@ -1,3 +1,5 @@
+package mates;
+
 import java.util.Random;
 import java.util.stream.LongStream;
 
@@ -9,7 +11,7 @@ public class Matematicas {
      * @param numIntentos El número de intentos o puntos generados para la aproximación.
      * @return Una aproximación del valor de pi.
      */
-    public static double aproximarPILambda(long numIntentos) {
+    public static double aproximarPiLambda(long numIntentos) {
         Random generadorAleatorio = new Random();
 
         // Contar cuántos puntos aleatorios caen dentro del círculo
