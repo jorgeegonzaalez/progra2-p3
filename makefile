@@ -11,5 +11,5 @@ compilar: limpiar
 
 jar: compilar
 	jar cvfm $(fichJar) manifest -C bin .
-javadoc:compilar 
-	find src -type f -name "*.java" | xargs javadoc -d html -encoding utf-8 -doencoding utf-8 -charset utf-8
+javadoc:compilar
+	find src -type f -name "*.java" | xargs javadoc -d html -encoding utf-8 -docencoding utf-8 -charset utf-8
