@@ -16,13 +16,13 @@ Siga los siguientes pasos para **instalar** y ejecutar el programa:
 ### 1. Descargue el código fuente:
 En primer lugar, **clone** el repositorio desde GitHub a su máquina local usando Git:
 
-      git clone https://github.com/jorgeegonzaalez/progra2-p2.git
+      git clone https://github.com/jorgeegonzaalez/progra2-p3.git
 
 ### 2. Acceda al directorio del proyecto:
 
 Tras la descargar, navegue al directorio donde se encuentra alojado el proyecto:
 
-    cd progra2-p2
+    cd progra2-p3
 
 ### 3. Compile el código fuente
 Compile el **código fuente** usando el comando indicado a continuación. Esto asegurará que los archivos .class se generen en el directorio bin/:
