@@ -1,7 +1,7 @@
 fichJar = pi.jar
 
 limpiar:
-        rm -f *.jar
+	rm -f *.jar
         rm -rf bin
         rm -rf html
 
